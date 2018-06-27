@@ -1,12 +1,17 @@
 {
-  "name": "nanotest",
+  "name": "parcel-bundler-hang-repro",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel --no-cache index.html"
   },
   "keywords": [],
   "author": "harry lachenmayer <harrylachenmayer@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nanocomponent": "^6.5.2",
+    "nanomorph": "^5.1.3",
+    "parcel-bundler": "^1.9.3"
+  }
 }
